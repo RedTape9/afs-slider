@@ -1,10 +1,4 @@
-$(document).ready(function(){
-    $('slideshow').sclick({
-        infinite: true,
-        slideToShow: 3,
-        slideToScroll: 3
-    });
-});
+
 const indikatoren = document.getElementsByClassName("indikator");
 indikatoren[0].classList.add("aktiv");
 
